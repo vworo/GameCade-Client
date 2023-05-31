@@ -50,7 +50,7 @@
         const messages = ref([])
 
         // The use of the WebSocket API 
-        const socket = new WebSocket('https://gamecade-dc594-default-rtdb.asia-southeast1.firebasedatabase.app/')
+        const socket = new WebSocket('ws://localhost:3000')
   
         // Checks if the user has entered a name then assigns connect to true
         const handleConnect = () => {

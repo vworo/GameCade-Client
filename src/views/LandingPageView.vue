@@ -1,3 +1,7 @@
+<script>
+    import { RouterLink } from 'vue-router';
+</script>
+
 <template>
     <div class="container">
         <h1>Welcome to GameCade</h1>

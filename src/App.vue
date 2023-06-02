@@ -8,11 +8,7 @@
 </script>
 
 <template>
-	<div>
-		<template v-if="!isLandingPage">
-			<NavBar />
-		</template>
-		
-		<RouterView />
-	</div>
+	<NavBar v-if="!isLandingPage"/>
+	
+	<RouterView />
 </template>

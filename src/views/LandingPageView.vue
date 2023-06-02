@@ -5,10 +5,10 @@ import { RouterLink } from 'vue-router';
 <template>
     <div class="container">
         <div class="landingContent">
-            <h1>Welcome to GameCade</h1>
+            <h1>WELCOME TO GAMECADE</h1>
             <RouterLink to="/home" v-slot="{ navigate }">
                 <button>
-                    Play Game
+                    PLAY GAME
                 </button>
             </RouterLink>
         </div>
@@ -35,7 +35,8 @@ import { RouterLink } from 'vue-router';
 
 .landingContent h1 {
     font-family: 'Fredoka', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 3em;
 }
 
 button {
